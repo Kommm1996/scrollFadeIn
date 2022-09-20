@@ -4,7 +4,8 @@ This is a fade animation following scroll.
 <div class="scrollFadeInUp"></div>
 <div class="scrollFadeInLeft"></div>
 <div class="scrollFadeInRight"></div>
-<div class="scrollFadeInZoom"></div>
+<div class="scrollFadeZoomIn"></div>
+<div class="scrollFadeZoomOut"></div>
 ```
 ```
 <script src="./scrollFadeIn.min.js"></script>
