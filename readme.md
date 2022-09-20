@@ -1,10 +1,10 @@
 ### scrollFadeIn
-这是一个跟随滚动的动画库
+This is a fade animation following scroll.
 `
-<div class="box scrollFadeInUp"></div>
-<div class="box scrollFadeInLeft"></div>
-<div class="box scrollFadeInRight"></div>
-<div class="box scrollFadeInZoom"></div>
+<div class="scrollFadeInUp"></div>
+<div class="scrollFadeInLeft"></div>
+<div class="scrollFadeInRight"></div>
+<div class="scrollFadeInZoom"></div>
 `
 `
 <script src="./scrollFadeIn.min.js"></script>
