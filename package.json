@@ -1,0 +1,14 @@
+{
+  "name": "scrollfadein",
+  "version": "1.0.0",
+  "description": "This is a animation of fade changes that follow the scroll.",
+  "main": "scrollFadeIn.js",
+  "scripts": {
+    "compress": "npx uglifyjs scrollFadeIn.js -m -o scrollFadeIn.min.js"
+  },
+  "author": "KamManWah",
+  "license": "ISC",
+  "devDependencies": {
+    "uglify-js": "^3.17.1"
+  }
+}
