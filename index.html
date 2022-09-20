@@ -17,41 +17,70 @@
     html,
     body {
       overflow-x: hidden;
-      background: #f5f5f5;
+      background: #f3f4f6;
     }
 
     .container {
-      max-width: 1200px;
+      max-width: 960px;
       width: 100%;
-      padding: 0 15px;
+      padding: 0 20px;
       margin: 0 auto;
     }
 
     .box {
-      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 70vw;
+      max-height: 500px;
       margin: 20px 0;
-      border: 1px solid #ccc;
-      background: #94a3b8;
-      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+      border: 2px solid #fff;
+      background: #334155;
+      border-radius: 8px;
+      box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    }
+
+    .text {
+      color: white;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.5em;
     }
   </style>
 </head>
 
 <body>
   <div class="container">
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box scrollFadeInUp"></div>
-    <div class="box scrollFadeInLeft"></div>
-    <div class="box scrollFadeInRight"></div>
-    <div class="box scrollFadeInZoom"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
+    <div class="box">
+      <h3 class="text">Slide Down</h3>
+    </div>
+    <div class="box">
+      <h3 class="text">Slide Down</h3>
+    </div>
+    <div class="box">
+      <h3 class="text">Slide Down</h3>
+    </div>
+    <div class="box scrollFadeInUp">
+      <h3 class="text">scrollFadeInUp</h3>
+    </div>
+    <div class="box scrollFadeInLeft">
+      <h3 class="text">scrollFadeInLeft</h3>
+    </div>
+    <div class="box scrollFadeInRight">
+      <h3 class="text">scrollFadeInRight</h3>
+    </div>
+    <div class="box scrollFadeZoomIn">
+      <h3 class="text">scrollFadeZoomIn</h3>
+    </div>
+    <div class="box scrollFadeZoomOut">
+      <h3 class="text">scrollFadeZoomOut</h3>
+    </div>
+    <div class="box">
+      <h3 class="text">Now Let's Slide Up</h3>
+    </div>
   </div>
 </body>
-<script src="./scrollFadeIn.js"></script>
+<script src="./scrollFadeIn.min.js"></script>
 <script defer>
   const init = new ScrollFadeIn()
   init.init()
